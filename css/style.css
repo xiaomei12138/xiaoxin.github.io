@@ -1,0 +1,153 @@
+.role-1-list {
+    margin-bottom: 60px;
+}
+
+.role-1-img {
+    width: 20%;
+    height: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px dashed #4cbce1;
+}
+
+.role-1-img img {
+    height: 100%;
+}
+
+.role-1-text {
+    width: 80%;
+    padding: 50px 20px 0;
+    box-sizing: border-box;
+    line-height: 30px;
+}
+
+.role-1-text h2 {
+    margin-bottom: 10px;
+}
+
+.movie-wrap {
+    width: 80%;
+    margin: 0 auto 40px;
+    border: 2px dashed #4cbce1;
+}
+
+.movie-wrap video {
+    padding: 20px;
+    vertical-align: top;
+    box-sizing: border-box;
+    background-color: #dff7ff;
+}
+
+.movie-1-text {
+    padding: 0 20px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.table {
+    width: 80%;
+    margin: 0 auto 40px;
+    border: 2px dashed #4cbce1;
+    border-collapse: collapse;
+}
+
+.table tr>td {
+    padding: 20px;
+    border: 2px dashed #4cbce1;
+}
+
+.atlas-1-img {
+    float: left;
+    width: 25%;
+    height: 140px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.atlas-1-img img {
+    height: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px #e4e4e4;
+}
+
+.atlas-2-img{
+    height: 360px;
+}
+
+.atlas-3{
+    padding-bottom: 40px;
+}
+
+.atlas-3-img {
+    height: 250px;
+}
+
+.form{
+    position: relative;
+    z-index: 5;
+    width: 400px;
+    padding: 40px 0;
+    margin: 0 auto 60px;
+    background: url(../images/img-12.jpg) no-repeat center/cover;
+}
+
+.form::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: #ffffffd6;
+}
+
+.input-bar {
+    margin-bottom: 10px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.input-bar label{
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.input-bar input{
+    display: inline-block;
+    padding-left: 5px;
+    height: 25px;
+    line-height: 25px;
+    outline: none;
+    border: 1px solid #4cbce1;
+}
+
+.input-bar input:hover{
+    border: 1px solid #fd2f2f;
+}
+
+.submit-bar{
+    text-align: center;
+}
+
+.submit-bar input{
+    display: inline-block;
+    margin-top: 25px;
+    width: 100px;
+    height: 25px;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid #4cbce1;
+    cursor: pointer;
+}
+
+.submit-bar input:hover{
+    color: #fff;
+    background-color: #fd2f2f;
+}

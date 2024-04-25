@@ -1,0 +1,155 @@
+/* 重置样式 reset style  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    /* background: url(../images/bg-2.jpg) repeat center; */
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* 公共样式  common style */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    /* 水平居中 */
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/* 清除浮动 */
+.clear {
+    clear: both;
+}
+
+/* 高度塌陷 */
+.clearboth::after {
+    content: '';
+    clear: both;
+    display: block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+/* 标题文本 */
+.title {
+    overflow: hidden;
+}
+
+/* 主标题 */
+.title h2 {
+    padding: 40px 0;
+    position: relative;
+    color: #121212;
+    text-align: center;
+    height: 70px;
+    /* line-height: 60px; */
+}
+
+.title h2 img {
+    width: 50px;
+    vertical-align: middle;
+}
+
+.title h3{
+    margin: 15px 0;
+    padding-left: 5px;
+    border-left: 8px solid #fd2f2f;
+}
+
+/* 区域文本默认设置 */
+.text-wrap p {
+    text-indent: 2em;
+    line-height: 30px;
+}
+
+/* 区域图片默认修改  */
+.img-wrap {
+    overflow: hidden;
+}
+
+.img-wrap img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    vertical-align: top;
+}
+
+/* header  */
+#header {
+    width: 100%;
+    border-bottom: 2px solid #4cbce1;
+}
+
+/* 导航区 */
+.nav {
+    color: #fff;
+    background-color: #55d3fc;
+}
+
+.nav li {
+    width: 16.66%;
+    height: 60px;
+    float: left;
+    text-align: center;
+}
+
+.nav li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.nav li a:hover {
+    background-color: #4cbce1;
+}
+
+.current-nav{
+    background-color: #4cbce1;
+}
+
+
+/* banner start */
+.banner {
+    height: 400px;
+    background: url(../images/banner.jpg) no-repeat center bottom/cover;
+
+}
+
+.child-banner {
+    height: 280px;
+}
+
+.main{
+    background-color: #ffffff;
+}
+
+/* 底部版权声明 */
+#footer {
+    padding: 30px 0;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    background-color: #4cbce1;
+    color: #fff;
+}
+
